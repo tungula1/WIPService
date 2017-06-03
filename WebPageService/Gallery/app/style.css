@@ -1,0 +1,153 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../assets/fonts/fontLogo.ttf);
+}
+@font-face {
+    font-family: Arial-geo;
+    src: url(../assets/fonts/arial_geo.ttf);
+}
+.post-content{
+    /*margin: 0% 1% 2% 1%;*/
+    text-align: left;
+    padding-bottom: 30px !important;
+    display: inline-block;
+}
+.project-bg{
+    background-color: #fff;
+
+}
+.image-content{
+    background-image : url('https://cdn.colorlib.com/illdy/wp-content/uploads/sites/11/2016/02/photo-1450101215322-bf5cd27642fc-360x213.jpg');;
+    width: 100% !important;
+    height: 200px !important;
+    background-position: center !important;
+    background-size: cover !important;
+    margin-bottom: 30px !important;
+}
+
+.header--name{
+    text-align: center;
+    font-family:Arial-geo ;
+    height: 30px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.detail--content{
+    overflow: hidden;
+    font-family:Arial-geo ;
+    padding: 0px 11px 8px 13px;
+    height: 64px;
+    text-align: left;
+}
+.some-height{
+    width: 100%;
+    height: 20px;
+}
+.read--more_btn--content{
+    text-align: center;
+    height: 39px;
+    margin-top: 7px;
+}
+.read--more_btn{
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+.read--more_btn:hover{
+    color:  #a09e9e;!important;
+    text-decoration:none;!important;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav--content{
+    float: right;
+    margin-right: 10%;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    font-family:Arial-geo ;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 31px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    /*background-color: #ddd;*/
+    color: #a09e9e;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.logo{
+    cursor: context-menu;
+    float: left;
+    color: white;
+    margin-left: 4%;
+    font-size: 30px;
+    margin-top: 6px;
+    font-family: myFirstFont;
+}
+.bg-image{
+    background-image: url(../assets/images/n1.jpg);
+    width: 100%;
+    height: 92.1%;
+    background-position: center;
+    background-size: cover;
+}
+.white--content{
+    font-family: Arial-geo;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+    color: white;
+}
+.content--info{
+    text-align: center;
+}
+.background--gray{
+    background-color: #f7f7f7;
+}
+.padding--image{
+    padding-top: 40px;
+}
+.padding--text--content{
+    padding-bottom: 30px;
+}
+.image--wrapper{
+    height: 600px;
+    overflow: hidden;
+}
+.cur--image{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.tittle--content{
+    padding-top: 70px;
+    text-align: left;
+    line-height: 25px;
+    font-family: Arial-geo;
+}
+.media--item--cont{
+    padding-top: 260px;
+    font-size: 20px;
+
+}
+.media--item--email{
+    margin: 0;
+    font-size: 20px;
+
+}
